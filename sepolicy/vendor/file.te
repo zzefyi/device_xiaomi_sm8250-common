@@ -23,3 +23,9 @@ type thermal_data_file, file_type, data_file_type;
 type ultrasound_device, dev_type;
 
 type vendor_sysfs_iio, fs_type, sysfs_type;
+
+# type proc_version_xin, fs_type, proc_version;
+
+# type proc_xin, fs_type,proc;
+
+type fingerprint_hal_xm, dev_type, fs_type;

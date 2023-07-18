@@ -9,3 +9,4 @@ allow init proc_last_kmsg:file {
 };
 
 allow init adsprpcd_file:file mounton;
+allow init self:qipcrtr_socket { create getattr read setopt write };
