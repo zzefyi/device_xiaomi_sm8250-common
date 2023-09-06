@@ -171,13 +171,24 @@ vendor.display.disable_excl_rect_partial_fb=1
 vendor.display.disable_hw_recovery_dump=1
 vendor.display.disable_offline_rotator=1
 vendor.display.disable_scaler=0
-vendor.display.enable_async_powermode=0
+vendor.display.enable_async_powermode=1
 vendor.display.enable_optimize_refresh=1
 vendor.display.enable_posted_start_dyn=1
 vendor.display.qdcm.disable_factory_mode=1
 vendor.display.qdcm.mode_combine=1
 vendor.display.use_layer_ext=0
 vendor.display.use_smooth_motion=0
+
+# Display HDR10
+vendor.display.enable_hdr10_gpu_target=1
+
+# Display Refresh Rate
+ro.surface_flinger.set_idle_timer_ms?=4000
+ro.surface_flinger.set_touch_timer_ms?=4000
+ro.surface_flinger.set_display_power_timer_ms?=1000
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+vendor.display.defer_fps_frame_count?=2
+ro.vendor.display.touch.idle.enable=true
 
 # DRM
 drm.service.enabled=true
