@@ -1,9 +1,6 @@
 # Camera
 camera.disable_zsl_mode=true
 
-# Charger
-ro.charger.disable_init_blank=true
-
 # Display
 debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=1
@@ -27,10 +24,6 @@ ro.vendor.qti.va_aosp.support=1
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
-
-# IOP
-vendor.iop.enable_prefetch_ofr=1
-vendor.iop.enable_uxe=0
 
 # LMK properties
 ro.lmk.use_minfree_levels=true
