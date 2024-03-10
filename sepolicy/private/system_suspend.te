@@ -1,2 +1,3 @@
 allow system_suspend sysfs:dir { open read };
 allow system_suspend sysfs_fuckgg:file { getattr open read };
+allow system_suspend sysfs_fuckgg:dir read;
