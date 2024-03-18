@@ -210,11 +210,6 @@ BOARD_SEPOLICY_M4DEFS += \
      sysfs_battery_supply=vendor_sysfs_battery_supply
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 
-# Touch
-SOONG_CONFIG_NAMESPACES += XIAOMI_TOUCH
-SOONG_CONFIG_XIAOMI_TOUCH := HIGH_TOUCH_POLLING_PATH
-SOONG_CONFIG_XIAOMI_TOUCH_HIGH_TOUCH_POLLING_PATH := /sys/devices/virtual/touch/touch_dev/bump_sample_rate
-
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
