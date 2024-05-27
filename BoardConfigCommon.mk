@@ -200,11 +200,7 @@ VENDOR_SECURITY_PATCH := 2023-06-01
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
-<<<<<<< HEAD
-
-=======
 include device/lineage/sepolicy/libperfmgr/sepolicy.mk
->>>>>>> 51662b1 (sm8250-common: Use common libqti-perfd-client and power-libperfmgr)
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/public
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
