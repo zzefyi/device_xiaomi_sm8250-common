@@ -150,7 +150,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
 # Google Camera
-$(call inherit-product, vendor/gcam/Camera-vendor.mk)
+$(call inherit-product-if-exists, vendor/gcam/Camera-vendor.mk)
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -566,4 +566,4 @@ PRODUCT_PACKAGES += \
 #     WfdCommon
 
 # Inherit the proprietary files
-#$(call inherit-product, vendor/xiaomi/sm8250-common/sm8250-common-vendor.mk)
+$(call inherit-product, vendor/xiaomi/sm8250-common/sm8250-common-vendor.mk)
