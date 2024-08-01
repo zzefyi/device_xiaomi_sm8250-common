@@ -133,6 +133,8 @@ PRODUCT_PACKAGES += \
     libvisualizer \
     libvolumelistener
 
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Audio configs
 #PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
