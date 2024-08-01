@@ -135,7 +135,6 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 402653184
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 endif
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 114135379968
-BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
 BOARD_USES_METADATA_PARTITION := true
 
 SSI_PARTITIONS := product system system_ext
@@ -258,4 +257,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
-#include vendor/xiaomi/sm8250-common/BoardConfigVendor.mk
+include vendor/xiaomi/sm8250-common/BoardConfigVendor.mk
