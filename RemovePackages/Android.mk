@@ -10,7 +10,11 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Contacts \
 	DeskClock \
 	Gallery2 \
-	QuickSearchBox
+	QuickSearchBox \
+	Matlog \
+	Jelly \
+	Etar \
+	Glimpse
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
